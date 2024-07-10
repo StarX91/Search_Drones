@@ -4,7 +4,7 @@ import Ddetail from "./Ddetail";
 
 const Search = () => {
   return (
-    <div className="flex bg-black h-screen">
+    <div className="flex flex-col lg:flex-row bg-black h-auto lg:h-screen">
       <Sdrone />
       <Ddetail />
     </div>
